@@ -51,14 +51,18 @@ tabPanel("Next Word Prediction",
 ## Tab 2 - application description
 
 tabPanel("Application Description",
-         fluidRow(
-                 column(2,
-                        p("")),
-                 column(8,
-                       "place info here"),
-                 column(2,
-                        p(""))
-         )
+
+h4("Purpose:"),
+p("This application was developed as the capstone project for the Coursera Data Scientist Specialization created by John Hopkins University."),
+p("The application attempts to predict the next english word based on an input string. The prediction is based on "),
+p("a subset of lines from files of text messages, tweets, and news feeds supplied by SwiftKey. "),
+p("Source code for the application can be found at the URL below:"), 
+a(href="https://github.com/ldriggen/Data-Scientist-Capstone-Project-Coursera", "https://github.com/ldriggen/Data-Scientist-Capstone-Project-Coursera"),
+br(),
+br(),
+p("Information on the specialization can be found at the URL below:"), 
+a(href="https://www.coursera.org/specializations/jhu-data-science", "www.coursera.org/specializations/jhu-data-science")
+        
 )
 
 
